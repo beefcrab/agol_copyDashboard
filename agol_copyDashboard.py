@@ -16,21 +16,21 @@ from getpass import getpass
 ## PARAMETERS
 
 #source
-src = "arcgis.com"
-src_admin = "wsl_slau"
+src = "arcgis.com"               #enter portal URL if portal
+src_admin = ""                   #enter user name
 src_admin_pwd = input("Enter your password source admin")
-src_owner = "wsl_slau"
+src_owner = ""                   #enter user name that owns the item
 
 #target
-tgt = "arcgis.com"
-tgt_admin = "wsl_slau"
+tgt = "arcgis.com"               #enter portal URL if portal
+tgt_admin = ""                   #enter user name of target location
 tgt_admin_pwd = input("Enter your password for target admin")
-tgt_owner = "wsl_slau"
+tgt_owner = ""                   #enter user name that the item is copied to
 tgt_folder = "dashboard_transfer"
 
 #list itemid here
 db_itemID = [
-   # eg: "a8247bcf45c54f34b96b96706ad74879"
+   # eg: "a8247bcf45c54f34b96b92606ad74879"
              ] 
 
 ## VERIFY CONNECTION
