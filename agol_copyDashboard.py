@@ -26,7 +26,7 @@ tgt = "arcgis.com"               #enter portal URL if portal
 tgt_admin = ""                   #enter user name of target location
 tgt_admin_pwd = input("Enter your password for target admin")
 tgt_owner = ""                   #enter user name that the item is copied to
-tgt_folder = "dashboard_transfer"
+tgt_folder = "dashboard_transfer" #enter name of foler to copy to. if it does not exsist, it will create it.
 
 #list itemid here
 db_itemID = [
